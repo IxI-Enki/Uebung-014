@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="57DF51BCE9686B4C">
+  <PROJECT FORMAT="1.00" NAME="PercentToGrade" AUTHOR="Jan Ritt" CREATED="2023.11.02 16:45:23" MODIFIED="2023.11.02 16:55:54">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="PercentToGrade" CREATED="2023.11.02 16:45:27" MODIFIED="2023.11.02 16:55:54">
+        <LAYOUT FORMAT="1.00" COLUMNS="3" ROWS="12">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[PercentToGrade]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Eingabe von reachedPercent]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[reachedPercent < 0 ?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="16">
+                <TEXT><![CDATA[reachedPercent >= 0 & reachedPercent < 50]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="25">
+                <TEXT><![CDATA[reachedPercent >= 50 & reachedPercent < 63]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="48">
+                <TEXT><![CDATA[reachedPercent >= 63 & reachedPercent < 75]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="55">
+                <TEXT><![CDATA[reachedPercent >= 75 & reachedPercent < 88]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="62">
+                <TEXT><![CDATA[reachedPercent >= 88 & reachedPercent <= 100]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="13">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="10">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="69">
+                <TEXT><![CDATA[Ausgabe von "Ungültige Eingabe"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="11">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="4">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="21">
+                <TEXT><![CDATA[Ausgabe von "Nicht Genügend"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="5">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="46">
+                <TEXT><![CDATA[Ausgabe von "Genügend"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="6">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="53">
+                <TEXT><![CDATA[Ausgabe von "Befriedigend"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="7">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="60">
+                <TEXT><![CDATA[Ausgabe von "Gut"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="8">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="64">
+                <TEXT><![CDATA[Ausgabe von "Sehr Gut"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="3">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="73">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="40">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="5">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="43">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="6">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="50">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="7">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="57">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="8">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="66">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="9">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="11">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="76" FROM="69" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="72" FROM="6" TO="73" TEXT="true" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="16" TEXT="false" />
+          <CONNECTION FORMAT="1.00" ID="15" FROM="11" TO="13" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="17" FROM="16" TO="25" TEXT="false" />
+          <CONNECTION FORMAT="1.00" ID="67" FROM="66" TO="11" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="20" FROM="16" TO="21" TEXT="true" />
+          <CONNECTION FORMAT="1.00" ID="26" FROM="25" TO="48" TEXT="false" />
+          <CONNECTION FORMAT="1.00" ID="45" FROM="25" TO="46" TEXT="true" />
+          <CONNECTION FORMAT="1.00" ID="47" FROM="46" TO="43" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="75" FROM="73" TO="40" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="42" FROM="21" TO="40" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="41" FROM="40" TO="43" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="49" FROM="48" TO="55" TEXT="false" />
+          <CONNECTION FORMAT="1.00" ID="44" FROM="43" TO="50" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="52" FROM="48" TO="53" TEXT="true" />
+          <CONNECTION FORMAT="1.00" ID="54" FROM="53" TO="50" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="56" FROM="55" TO="62" TEXT="false" />
+          <CONNECTION FORMAT="1.00" ID="51" FROM="50" TO="57" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="59" FROM="55" TO="60" TEXT="true" />
+          <CONNECTION FORMAT="1.00" ID="61" FROM="60" TO="57" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="14" FROM="13" TO="69" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="65" FROM="62" TO="64" TEXT="true" />
+          <CONNECTION FORMAT="1.00" ID="58" FROM="57" TO="66" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="68" FROM="64" TO="66" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="63" FROM="62" TO="13" TEXT="false" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>
