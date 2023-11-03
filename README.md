@@ -25,6 +25,10 @@ Achten Sie darauf, dass Sie korrekte Einrückungen machen und dass die Variablen
 ## . . . . . . . . . .... [SPOILER] .... . . . . . . . . 
 
 ## Visual Studio
+![vs1](https://github.com/IxI-Enki/Uebung-014/assets/138018029/d14edf07-3848-4cde-a57b-bb183a08182a)
+![vs2](https://github.com/IxI-Enki/Uebung-014/assets/138018029/6cf08993-8280-4cf5-bb71-08fceb5cbd9c)
+
 
 ## Ausgabe
+![A](https://github.com/IxI-Enki/Uebung-014/assets/138018029/95cb0237-bd67-4f1f-895c-5bc4c163b2c8)
 
